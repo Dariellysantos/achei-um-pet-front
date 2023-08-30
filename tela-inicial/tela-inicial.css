@@ -1,0 +1,86 @@
+body {
+  background-color: #4f2164;
+}
+
+main {
+  padding: 10px;
+  min-width: 1284px;
+  max-width: 1330px;
+  max-height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+#lado-direito {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+aside {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+article {
+  position: relative;
+  padding-left: 600px;
+  padding-bottom: 40px;
+  padding-top: 80px;
+  position: relative;
+  color: white;
+  font-size: 36px;
+  font-family: "Glacial Indifference", sans-serif;
+  text-align: center;
+  margin: auto;
+}
+footer {
+  display: flex;
+}
+
+#achei-um-pet-logo {
+  width: 100%;
+  max-width: 550px;
+  min-width: 600px;
+  padding-left: 50px;
+  padding-bottom: 80px;
+  flex: 1;
+}
+
+#click-cadastro {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cadastre-se {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Glacial Indifference", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-text {
+  position: relative;
+  margin-left: 160px;
+  padding-left: 400px;
+}
+
+#logo-caotagem {
+  width: 150px;
+  margin-left: 10px;
+}
